@@ -1,0 +1,43 @@
+body {
+    font-family: Helvetica;
+    background: linear-gradient(to right, #7191ad, #bec2e7);
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+label,
+input {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    align-content: space-around;
+}
+
+label {
+    color: #004e92;
+    font-family: Helvetica;
+}
+
+button {
+    text-decoration: none;
+    padding: 9px;
+    color: #ffffff;
+    background-color: #004e92;
+    border-radius: 4px;
+}
+
+
+
+h1 {
+    font-weight: 100;
+    color: white;
+}
+
+h2 {
+    font-weight: 100;
+    color: #004e92;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
